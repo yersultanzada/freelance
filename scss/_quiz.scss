@@ -1,0 +1,96 @@
+#quiz-heat {
+  background-color: #000;
+  color: #fff;
+  .block-sub {
+    font-size: 18px;
+    margin-left: 90px;
+  }
+}
+#quiz-about {
+  background-color: #f3f3f3;
+  .quiz-aboutItem {
+    color: #ffffff;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+    .item-text {
+      padding: 0 35px 35px 35px;
+    }
+    &.bg1 {
+      background: #141e30;
+      background: -moz-linear-gradient(41deg, #141e30 0%, #243b55 100%);
+      background: -webkit-linear-gradient(
+                      41deg
+              , #141e30 0%, #243b55 100%);
+      background: linear-gradient(
+                      41deg
+              , #141e30 0%, #243b55 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#141e30', endColorstr='#243b55', GradientType=1);
+    }
+    &.bg2 {
+      background: #4776e6;
+      background: -moz-linear-gradient(-164deg, #4776e6 0%, #8e54e9 100%);
+      background: -webkit-linear-gradient(
+                      -164deg
+              , #4776e6 0%, #8e54e9 100%);
+      background: linear-gradient(
+                      -164deg
+              , #4776e6 0%, #8e54e9 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4776e6', endColorstr='#8e54e9', GradientType=1);
+    }
+    &.bg3 {
+      background: #480048;
+      background: -moz-linear-gradient(39deg, #480048 0%, #ca3d65 100%);
+      background: -webkit-linear-gradient(
+                      39deg
+              , #480048 0%, #ca3d65 100%);
+      background: linear-gradient(
+                      39deg
+              , #480048 0%, #ca3d65 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#480048', endColorstr='#ca3d65', GradientType=1);
+    }
+    &.bg4 {
+      background: #0b8793;
+      background: rgba(56,78,108,1);
+      background: -moz-linear-gradient(left, rgba(56,78,108,1) 0%, rgba(48,116,152,1) 100%);
+      background: -webkit-linear-gradient(left, rgba(56,78,108,1) 0%, rgba(48,116,152,1) 100%);
+      background: -o-linear-gradient(left, rgba(56,78,108,1) 0%, rgba(48,116,152,1) 100%);
+      background: -ms-linear-gradient(left, rgba(56,78,108,1) 0%, rgba(48,116,152,1) 100%);
+      background: linear-gradient(to right, rgba(56,78,108,1) 0%, rgba(48,116,152,1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#384e6c', endColorstr='#307498', GradientType=1 );
+    }
+  }
+}
+#bonus {
+  .circle {
+    width: 48px;
+    height: 48px;
+    background-color: #ffd600;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 10px;
+    img {
+      position: relative;
+      width: 24px;
+      top: 50%;
+      margin-top: -24px;
+    }
+  }
+  h3 {
+    align-self: flex-end;
+    margin-bottom: 5px;
+  }
+  span {
+    color: #ffd600;
+  }
+}
+@media (max-width: 991px) {
+  #quiz-heat .block-sub {
+    margin-left: 0;
+  }
+}

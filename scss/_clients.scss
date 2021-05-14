@@ -1,0 +1,20 @@
+#clients {
+  .client-item {
+    text-align: center;
+    .item-img {
+      img {
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+    .item-title {
+      text-transform: uppercase;
+      letter-spacing: .1em;
+      font-weight: 600;
+      margin-top: 20px;
+      margin-bottom: 5px;
+    }
+  }
+}

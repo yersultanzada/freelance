@@ -1,0 +1,130 @@
+// Styling for the masthead
+section#masthead, section#quiz-main {
+  position: relative;
+  .wt-background-headerImg {
+    background: url(../img/main_bg.jpg) no-repeat 50% 50% / cover , #000;
+  }
+  .wt-block-intro {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    color: #fff;
+  }
+  .wt-section-heroTitle {
+    font-size: 36px;
+    line-height: 40px;
+    font-family: 'Montserrat Bold', sans-serif;
+    font-weight: 700;
+    width: 100%;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0.15em;
+    span {
+      color: #00C2FF;
+    }
+  }
+  .block-text {
+    font-size: 18px;
+    line-height: 1.5;
+    width: 100%;
+    letter-spacing: 0.1em;
+    margin-bottom: 45px;
+  }
+  .block-last {
+    padding: 30px;
+    border-left: 1px solid #fff;
+    .block-last-text {
+      font-size: 18px;
+      line-height: 1.5;
+      letter-spacing: 0.1em;
+    }
+  }
+  .case-block {
+    position: relative;
+    width: 510px;
+    #case-carousel, .quiz-case {
+      position: absolute;
+      top: 24px;
+      left: 65px;
+      img {
+        width: 380px;
+        height: 238px;
+        object-fit: cover;
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  section#masthead .wt-section-heroTitle, section#quiz-main .wt-section-heroTitle {
+    font-size: 22px;
+    line-height: 1.25;
+  }
+  section#masthead .case-block, section#quiz-main .case-block {
+    width: 288px;
+    #case-carousel, .quiz-case {
+      top: 14px;
+      left: 37px;
+      img {
+        width: 215px;
+        height: 134px;
+      }
+    }
+  }
+  section#masthead .btn, section#quiz-main .btn {
+    width: 100%;
+  }
+  section#masthead.thank-you {
+    a.text-white {
+      line-height: 1.3;
+      text-align: right;
+    }
+  }
+}
+@media (max-width: 368px) {
+  section#masthead .case-block, section#quiz-main .case-block {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  section#masthead, section#quiz-main {
+    .wt-block-intro {
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+    .wt-section-heroTitle {
+      max-width: 1050px;
+    }
+    .block-text {
+      max-width: 450px;
+    }
+  }
+}
+@media (min-width: 1200px) {
+  section#masthead .case-block, section#quiz-main .case-block {
+    width: 570px;
+    #case-carousel, .quiz-case {
+      top: 28px;
+      left: 72px;
+      img {
+        width: 425px;
+        height: 265px;
+      }
+    }
+  }
+  section#masthead.thank-you {
+    height: 100vh;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1320px) {
+  section#masthead .case-block, section#quiz-main .case-block {
+    width: 510px;
+    #case-carousel, .quiz-case {
+      top: 24px;
+      left: 65px;
+      img {
+        width: 380px;
+        height: 238px;
+      }
+    }
+  }
+}

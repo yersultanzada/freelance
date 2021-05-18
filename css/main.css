@@ -70,7 +70,7 @@
         -o-transition: opacity 0.4s ease-in-out 0s;
         -moz-transition: opacity 0.4s ease-in-out 0s;
         transition: opacity 0.4s ease-in-out 0s;
-        opacity: 0.8;
+        opacity: 0.9;
     }
 
 .video-widget__close {
@@ -167,8 +167,7 @@
         -moz-transition: transform 0.2s ease-in-out 0s, opacity 0.3s ease-in-out 0s, background-color 0.2s ease-in-out 0s, -moz-transform 0.2s ease-in-out 0s;
         transition: transform 0.2s ease-in-out 0s, opacity 0.3s ease-in-out 0s, background-color 0.2s ease-in-out 0s;
         transition: transform 0.2s ease-in-out 0s, opacity 0.3s ease-in-out 0s, background-color 0.2s ease-in-out 0s, -webkit-transform 0.2s ease-in-out 0s, -moz-transform 0.2s ease-in-out 0s, -o-transform 0.2s ease-in-out 0s;
-        opacity: 1;
-        visibility: visible;
+        visibility: hidden;
         background-color: rgb(253, 216, 42);
         font-size: 14px;
         font-family: Helvetica;
@@ -183,8 +182,9 @@
 	.video-widget__button:hover {background-color: rgb(255, 226, 87); text-decoration: none;}
 
 .video-widget.video-widget[data-state="opened"] .video-widget__button {
-        opacity: 1;
-    }
+    opacity: 1;
+    visibility: visible;
+}
 
 @media only screen and (min-width: 960px) {
     }

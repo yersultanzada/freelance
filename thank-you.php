@@ -47,10 +47,7 @@
 	<!-- Navigation -->
 	<nav class="navbar navbar-expand-lg" id="mainNav">
 		<div class="container">
-			<div class="col-12 d-flex justify-content-between align-items-center p-0">
-				<a class="navbar-brand" href="/">
-					<img src="img/logo_wt.svg" alt="">
-				</a>
+			<div class="col-12 d-flex justify-content-end p-0">
 				<a class="text-white" href="/">Перейти на главную</a>
 			</div>
 		</div>
@@ -59,13 +56,12 @@
 		<div class="row wt-block-intro">
 			<div class="col-lg-12 align-self-center">
 				<h1 class="wt-section-heroTitle mb-4">
-					<span>Благодарим</span> за оставленную заявку!
+					<span>Благодарю</span> за оставленную заявку!
 				</h1>
 				<span class="dot"></span>
 				<div class="block-last">
 					<p class="block-last-text">
-						Наш менеджер скоро свяжется с Вами чтобы обговорить время для
-						консультации с нашим директором.
+						Скоро свяжусь с Вами чтобы обговорить все детали.
 					</p>
 				</div>
 			</div>

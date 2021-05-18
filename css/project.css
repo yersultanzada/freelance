@@ -306,7 +306,8 @@ img::-moz-selection {
 
 #mainNav .burger-menu {
   float: right;
-  padding-top: 27px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 #mainNav .burger-menu div:nth-child(1), #mainNav .burger-menu div:nth-child(3) {
@@ -564,12 +565,12 @@ section#masthead .case-block #case-carousel img, section#masthead .case-block .q
     width: 570px;
   }
   section#masthead .case-block #case-carousel, section#masthead .case-block .quiz-case, section#quiz-main .case-block #case-carousel, section#quiz-main .case-block .quiz-case {
-    top: 28px;
+    top: 27px;
     left: 72px;
   }
   section#masthead .case-block #case-carousel img, section#masthead .case-block .quiz-case img, section#quiz-main .case-block #case-carousel img, section#quiz-main .case-block .quiz-case img {
-    width: 425px;
-    height: 265px;
+    width: 426px;
+    height: 267px;
   }
   section#masthead.thank-you {
     height: 100vh;
@@ -1023,9 +1024,20 @@ section#services .service-item a:hover {
   #feedback img {
     width: 190px;
   }
+  #terms h1 {
+    font-size: 25px;
+    line-height: 1.2;
+  }
 }
 
 @media (max-width: 408px) {
+  #feedback ._col {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+  }
   #feedback .bottom-link:nth-child(2) {
     margin-left: 0;
   }
@@ -1209,7 +1221,7 @@ section#services .service-item a:hover {
 }
 
 section#advantages {
-  background-color: #000000;
+  background: linear-gradient(41deg, #16191e 0, #000 100%);
   color: #FFFFFF;
 }
 

@@ -85,3 +85,4 @@
         $("form .form-check #plan3").prop('checked', true);
     })
 })(jQuery); // End of use strict
+function noselect() {return false;}

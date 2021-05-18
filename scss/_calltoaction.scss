@@ -102,8 +102,16 @@
   #feedback img {
     width: 190px;
   }
+  #terms h1 {
+    font-size: 25px;
+    line-height: 1.2;
+  }
 }
 @media (max-width: 408px) {
+  #feedback ._col {
+    flex-direction: column;
+    text-align: center;
+  }
   #feedback .bottom-link:nth-child(2) {
     margin-left: 0;
   }

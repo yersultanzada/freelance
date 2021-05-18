@@ -21,6 +21,16 @@
         }
     }
 
+    if (isset($_POST['plan']) ) {
+        if(empty($_POST['plan']) && TELISREQUIRED) {
+            $msgs['plan'] = MSGSTELERROR;
+        } else {
+            if (!empty($_POST['plan'])) {
+                $plan = "<b>Тариф: </b> " . trim(strip_tags($_POST['plan'])) . "<br>";
+            }
+        }
+    }
+
 
     foreach ($_FILES["files"]["error"] as $key => $error) {
         if (!$error == UPLOAD_ERR_OK  && FILEISREQUIRED) {

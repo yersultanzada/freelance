@@ -62,6 +62,13 @@
           margin-right: 10px;
         }
       }
+      .custom-control-label::before, .custom-control-label::after {
+        width: 13px;
+        height: 13px;
+      }
+      .custom-control-label::after {
+        top: .26rem;
+      }
     }
   }
   .bottom-link {

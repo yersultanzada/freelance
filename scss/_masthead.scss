@@ -54,6 +54,9 @@ section#masthead, section#quiz-main {
     }
   }
 }
+.thank-you {
+  height: 100vh;
+}
 @media (max-width: 767px) {
   section#masthead .wt-section-heroTitle, section#quiz-main .wt-section-heroTitle {
     font-size: 22px;
@@ -110,9 +113,6 @@ section#masthead, section#quiz-main {
         height: 267px;
       }
     }
-  }
-  section#masthead.thank-you {
-    height: 100vh;
   }
 }
 @media (min-width: 1200px) and (max-width: 1320px) {

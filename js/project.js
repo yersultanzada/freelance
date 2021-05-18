@@ -71,18 +71,17 @@
             $('form .form-control').prev().css('color', '#ffffff');
         });
 
-    $(".plan-btn a, #about a, .wt-block-intro a").click(function (){
+/*    $(".plan-btn a").click(function (){
         $("form .form-control[type=text]").focus();
-    });
+    });*/
 
     $(".plan-btn a.btn_blue").click(function (){
-        $("form .form-check #plan1").prop('checked', true);
+        $("form .custom-control #plan1").prop('checked', true);
     });
     $(".plan-btn a.btn_green").click(function (){
-        $("form .form-check #plan2").prop('checked', true);
+        $("form .custom-control #plan2").prop('checked', true);
     });
     $(".plan-btn a.btn_yellow").click(function (){
-        $("form .form-check #plan3").prop('checked', true);
+        $("form .custom-control #plan3").prop('checked', true);
     })
 })(jQuery); // End of use strict
-function noselect() {return false;}
